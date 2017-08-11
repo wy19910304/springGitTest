@@ -33,10 +33,11 @@ public class Car {
 	public void setBrand(String brand) {
 		this.brand = brand;
 	}
+	//sajjkadshdjkhdui
 	
-	// toString的作用:
-	// 当使用out直接输出对象时, 不再输出对象的内存信息.
-	// 而会输出toString方法的返回值
+	// toString鐨勪綔鐢�:
+	// 褰撲娇鐢╫ut鐩存帴杈撳嚭瀵硅薄鏃�, 涓嶅啀杈撳嚭瀵硅薄鐨勫唴瀛樹俊鎭�.
+	// 鑰屼細杈撳嚭toString鏂规硶鐨勮繑鍥炲��
 	@Override
 	public String toString() {
 		return "Car [name=" + name + ", num=" + num + ", brand=" + brand + "]";
